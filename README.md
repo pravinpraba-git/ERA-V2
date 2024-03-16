@@ -1,8 +1,29 @@
 # ERA-V2
 ERA-V2-Session6-assignment
+The worksheet contains the description of how the forward and back propogation works during the training process for a simple 2 input, 2 output and 2 layer Neural network
+
+Forward Propogation:
+Step 1: Calculate the output neurons ah1 and ah2 by multiplying the input i1 and i2 with w1, w2, w3 and w4 based on the network topology.
+Step 2: Compute the output of activation functions ah1, ah2
+Step 3: Compute the output o1 and o2 neurons of the second layer my multiplying weights w5,w6,w7 and w9 with a_h1 and a_h2 according to network topology
+Step 4: Compute the output of activation functions a_o1, a_o2 
+Step 5: Compute the Errors E1 and E2
+Step 6: Compute the E_total by adding E1 and E2
+
+Back propogation:
+Step 1: Develop equation for the partial derivatives for E_total with respect to weights w8, w7, w6, w5
+Step 2: Develop equation for the partial derivatives for E_total with respect to weights w4, w3, w2, w1 based on the substitution method provided Panel 4 and 5
+Step 3: Initialize the value η the learning rate to 0.1
+Step 4: Initialize the weights from w1 to w8
+Step 5: Set the t1 and t2 target values to 0.5 and 0.5
+Step 6: Update the formula derived from Step 1 and step 2 and update all the values in the worksheet
+Step 7: Populate the vlaues for 66 epochs by dragging
+Step 8: Modify the learning rate and observe the accuracy and convdrgence changing dynamically and the observations are listed below
 
 
 
+
+Backward propogation:
 
 
 
